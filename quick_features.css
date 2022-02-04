@@ -1,0 +1,38 @@
+.quickFeatures {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    height: 23rem;
+}
+
+.quickFeatures h2 {
+    font-size: 30px;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    font-family: sans-serif;
+}
+
+.featuresList {
+    display: flex;
+    padding: 1rem;
+    margin-top: 2rem;
+    font-family: sans-serif;
+}
+
+.featuresList p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+.featuresList h3 {
+    font-size: 1.1rem;
+}
+
+.reputation, .monetization, .projectExposure, .levelUp {
+    max-inline-size: 25%;
+}
+
+.material-icons.mi36
+{
+    font-size: 36px;
+}
